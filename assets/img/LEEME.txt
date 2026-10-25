@@ -1,0 +1,34 @@
+CARPETA DE IMÁGENES — Entre Nosotras: Cartagena · Edición 1.0
+=================================================================
+FOTOS REALES DE CARTAGENA (sin etiqueta en la página)
+  hero-torre-reloj.jpg       Portada
+  intro-getsemani.jpg        "¿Por qué nace este plan?"
+  dia1-centro-noche.jpg      Itinerario Día 1
+  dia3-calle-colores.jpg     Itinerario Día 3
+  mom-cupulas-noche.jpg      Momento 01 · Noche Blanca
+  mom-bahia.jpg              Momento 02 · Bahía (cuadro del video)
+  mom-cena-vista.jpg         Momento 04 · Cena de cierre (terraza, foto completa)
+  contacto-torre-reloj.jpg   Fondo de contacto
+  galeria/01 a 08            Galería "Postales de Cartagena"
+  ../video/bahia-noche.mp4   Video de la bahía (sin audio, 1,5 MB)
+
+IMÁGENES CONCEPTUALES (llevan la etiqueta "Imagen de referencia")
+  dia2-isla.jpg              Día 2 y Momento 03 (pendiente foto real de islas)
+  kit-propuesta.jpg          Fondo difuminado del kit (contenido sorpresa)
+  dress-*.jpg                Los tres looks de vestuario
+
+PARA CAMBIAR UNA FOTO: guarde la nueva con el MISMO nombre.
+Si reemplaza una conceptual por una real, quite su clave de
+CONFIG.fotosReferencia en index.html (p. ej. "dia2").
+Para agregar fotos a la galería, póngalas en galeria/ y añada una línea
+en la lista GALERIA de index.html.
+
+VIDEOS (carpeta assets/video)
+  bahia-noche.mp4   Bahía de noche (Día 1)
+  isla-dia.mp4      Día de islas (Día 2) — los cuadros dia2-isla.jpg,
+                    mom-isla.jpg e isla-poster.jpg salen de este video
+
+SONIDO (carpeta assets/audio)
+  fondo.mp3         Se activa con el botón "Comenzar el viaje".
+                    Para cambiarlo, reemplace el archivo con el mismo nombre.
+                    Para quitarlo: CONFIG.audio = ""

@@ -1,0 +1,42 @@
+ENTRE NOSOTRAS: CARTAGENA · EDICIÓN 1.0 — Aliuuka Tours
+=========================================================
+
+ABRIR LA PÁGINA
+  Doble clic en index.html (Edge o Chrome). No mueva index.html fuera
+  de esta carpeta: necesita la carpeta assets/.
+
+QUÉ SE EDITA (abrir index.html con el Bloc de notas y buscar  const CONFIG)
+  precio ............ "Próximamente" hasta que la agencia lo apruebe
+  estado ............ "Edición en preparación"
+  incluye ........... lista de lo que incluye el plan (portada y paquete)
+  whatsapp .......... 573007474965
+  urlPublica ........ dirección de la página cuando esté publicada en internet
+                      (activa los enlaces personales de invitación y del test)
+  horaRecogidaCena .. hora de la última noche cuando se confirme
+  audio ............. assets/audio/fondo.mp3  ("" = sin sonido)
+
+FUNCIONES PARA LA AGENCIA
+  Panel del asesor:   abra la página con  #asesor  al final de la dirección
+                      (o el enlace "Para asesores" en el pie de página).
+                      Escriba el nombre de la clienta y su WhatsApp: se arma un
+                      mensaje con su enlace personal. Al abrirlo, la bienvenida
+                      dice "Hola, [nombre]".
+  Referidos:          cuando una clienta llega por la invitación de una amiga,
+                      los mensajes de WhatsApp a la agencia terminan con
+                      "(Me invitó [nombre])".
+  QR del asesor:      assets/qr-whatsapp-asesor.png abre el chat de la agencia
+                      con el mensaje listo. Sirve para flyers, stands y vallas.
+  Vista al compartir: assets/img/og-cover.jpg (cuando haya urlPublica, cambie
+                      og:image en el encabezado por la dirección completa).
+
+FUNCIONES PARA LAS CLIENTAS
+  Entrada con música · ruta animada Riohacha–Cartagena · itinerario por días ·
+  códigos de vestuario · maleta con avance que se guarda en su celular ·
+  video de bahía e islas · test "¿Qué viajera eres?" con resultado para
+  compartir · invitación personalizada a una amiga · guardar la fecha en
+  Google Calendar u Outlook · medios de pago con botón de copiar ·
+  asesor por WhatsApp en toda la página.
+
+QUÉ NO HACE (no tiene servidor)
+  No guarda formularios, no recibe pagos y no confirma reservas. Todo
+  termina en el WhatsApp de la agencia.
